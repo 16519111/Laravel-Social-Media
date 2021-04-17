@@ -4,14 +4,11 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Post extends Model
+class Comment extends Model
 {
-    protected $table = "post";
-    protected $fillable = ["type", "contents"];
-
-    public function like()
+    public function user_comment()
     {
-        return $this->hasMany('App\Like');
+        return $this->hasMany('App\User_Comment');
     }
 
     public function comment_post()

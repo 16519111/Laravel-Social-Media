@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-<a href="/post/create" class="btn btn-primary mb-3">Tambah</a>
+<a href="/post/create" class="btn btn-primary mb-3">Add Post</a>
 <table class="table">
     <thead class="thead-light">
         <tr>

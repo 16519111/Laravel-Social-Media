@@ -38,12 +38,12 @@ class PostController extends Controller
     {
         $this->validate($request,[
     		'type' => 'required',
-    		'content' => 'required'
+    		'contents' => 'required'
     	]);
  
         Post::create([
     		'type' => $request->type,
-    		'content' => $request->content
+    		'contents' => $request->contents
     	]);
  
     	return redirect('/post');
@@ -83,13 +83,13 @@ class PostController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'title' => 'required|unique:post',
-            'body' => 'required',
+            'type' => 'required',
+    		'contents' => 'required'
         ]);
 
         $post = post::find($id);
-        $post->title = $request->title;
-        $post->body = $request->body;
+        $post->type = $request->type;
+        $post->contents = $request->contents;
         $post->update();
         return redirect('/post');
     }

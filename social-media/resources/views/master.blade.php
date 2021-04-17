@@ -408,7 +408,7 @@
                                     <div class="col-md-8">
                                         <div class="page-header-title">
                                             <h5 class="m-b-10">Dashboard</h5>
-                                            <p class="m-b-0">Welcome to Material Able</p>
+                                            <p class="m-b-0">Welcome to LaraGram • Express Your Life</p>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -423,8 +423,9 @@
                                 </div>
                             </div>
                         </div>
-                        @yield('content')
-                        <!-- Page-header end -->
+                        <div class="p-4">
+                            @yield('content')
+                        </div>
                         
                     </div>
                 </div>

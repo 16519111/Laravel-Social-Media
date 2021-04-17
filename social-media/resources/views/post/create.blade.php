@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-<h2>Tambah Data</h2>
+<h2>Tambah Post</h2>
 <form action="/post" method="POST">
     @csrf
     <div class="form-group">
@@ -21,6 +21,6 @@
             </div>
         @enderror
     </div>
-    <button type="submit" class="btn btn-primary">Tambah</button>
+    <button type="submit" class="btn btn-primary">Post</button>
 </form>
 @endsection
