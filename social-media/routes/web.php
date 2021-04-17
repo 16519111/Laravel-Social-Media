@@ -12,5 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('master');
 });
+
+// Post
+Route::resource('post', 'PostController');
+Route::get('/post', 'PostController@index');
+Route::get('/post/create', 'PostController@create');
+Route::post('/post', 'PostController@store');
+Route::get('/post/{post_id}', 'PostController@show');
+Route::put('/post/{post_id}', 'PostController@update');
+Route::delete('/post/{post_id}', 'PostController@destroy');
