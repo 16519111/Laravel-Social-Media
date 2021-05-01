@@ -46,6 +46,8 @@ Framework used in this application
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
 * [Laravel](https://laravel.com)
+* [MariaDB (SQL)](https://mariadb.com/)
+* [Xampp](https://www.apachefriends.org/index.html)
 
 
 
