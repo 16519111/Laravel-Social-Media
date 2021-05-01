@@ -58,13 +58,11 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 #### Composer
-<p> 
-  Download and Install: https://getcomposer.org/download/
-</p>
-To check if Composer is installed on your device: 
-  ```sh
-  composer --version
-  ```
+1. Download and Install: https://getcomposer.org/download/
+2. To check if Composer is installed on your device: 
+   ```sh
+   composer --version
+   ```
 
 ### Installation and Running
 
@@ -80,6 +78,6 @@ To check if Composer is installed on your device:
 <!-- CONTACT -->
 ## Contact
 
-Gregorius Dimas Baskara - [@your_twitter](https://twitter.com/your_username) - gregdimasbaskara@gmail.com
+Gregorius Dimas Baskara - [myLinkedIn](https://www.linkedin.com/in/gregorius-dimas-baskara-aba7a71aa/) - gregdimasbaskara@gmail.com
 
 Project Link: [https://github.com/16519111/Laravel-Social-Media](https://github.com/16519111/Laravel-Social-Media)
