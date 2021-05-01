@@ -24,15 +24,10 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#installation">Installation and Running</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -62,11 +57,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-##### Composer
+#### Composer
 <p> 
   Download and Install: https://getcomposer.org/download/
 </p>
-<p> To check if Composer is installed on your device: </p>
+To check if Composer is installed on your device: 
   ```sh
   composer --version
   ```
